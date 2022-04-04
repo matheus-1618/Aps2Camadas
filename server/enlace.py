@@ -26,6 +26,7 @@ class enlace(object):
         self.connected   = False
 
     def enable(self):
+        #teste
         self.fisica.open()
         self.rx.threadStart()
         self.tx.threadStart()
